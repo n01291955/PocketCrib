@@ -1,5 +1,5 @@
 # PocketCrib App
-#Team members:
+Team members:
 Alen Alimkhanov
 Heorhii Nechyporenko
 Mykyta Nechyporenko
