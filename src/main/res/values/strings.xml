@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">PocketCrib</string>
-    <string name="fullName">Full name</string>
-    <string name="studentID">Student ID</string>
-    <string name="phoneNo">Phone number</string>
-    <string name="button">Submit</string>
-    <string name="firstLineLogin">Your information</string>
-    <string name="loginError">All information fields must be filled</string>
-</resources>
