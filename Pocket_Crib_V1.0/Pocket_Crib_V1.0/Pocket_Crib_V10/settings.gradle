@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "Pocket_Crib_V1.0"
