@@ -12,6 +12,5 @@ All they need to do are: <br/>
 • Log in to the app by entering name, student number <br/>
 • Choose parts in the catalogue <br/>
 • Make a request <br/>
-This app includes 3 pages (Login, Catalog, Checkout). By applying these features to our project we will be able to <br/>
-get important information and add it to database which can be used by staff members. <br/>
+This app includes 3 pages (Login, Catalog, Checkout). By applying these features to our project we will be able to get important information and add it to database which can be used by staff members. <br/>
 After completing logging in process users will be able to browse parts and submit them.<br/>
