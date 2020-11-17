@@ -5,9 +5,9 @@ Alen Alimkhanov (N01291955)
 Heorhii Nechyporenko (N01329655)
 Mykyta Nechyporenko (N01329656)
 Nikita Smirnov (N01287334)
-##Project Description
-This is Android App that will help students to request lab parts anytime and anywhere. This app will save time for both students and staff members. 
-All they need to do are: 
+
+## Project Description
+This is Android App that will help students to request lab parts anytime and anywhere. This app will save time for both students and staff members.    All they need to do are: 
 • Log in to the app by entering name, student number
 • Choose parts in the catalogue 
 • Make a request 
