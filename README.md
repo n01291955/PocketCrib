@@ -1,6 +1,6 @@
 # PocketCrib App
 
-##Team members:
+## Team members:
 Alen Alimkhanov (N01291955)
 Heorhii Nechyporenko (N01329655)
 Mykyta Nechyporenko (N01329656)
