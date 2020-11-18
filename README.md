@@ -1,10 +1,12 @@
 # PocketCrib App
 
-## Team members:
-Alen Alimkhanov (N01291955)
-Heorhii Nechyporenko (N01329655)
-Mykyta Nechyporenko (N01329656)
-Nikita Smirnov (N01287334)
+# Team name: RUTeam <br/>
+
+## Team members: <br/>
+Alen Alimkhanov (N01291955) <br/>
+Heorhii Nechyporenko (N01329655) <br/>
+Mykyta Nechyporenko (N01329656) <br/>
+Nikita Smirnov (N01287334) <br/>
 
 ## Project Description
 This is Android App that will help students to request lab parts anytime and anywhere. This app will save time for both students and staff members.<br/>
