@@ -17,6 +17,7 @@ All they need to do are: <br/>
 • Choose parts in the catalogue <br/>
 • Make a request <br/>
 • Confirm that they returned the requested items<br/>
+
 This app includes 4 pages/tabs (Login, Catalog (Items), Request(Selected), Return Items (Requested)). <br/>
 The data submitted through the app updates the count of available items in the database. <br/>
 After completing logging in process users will be able to browse parts and request them.<br/>
