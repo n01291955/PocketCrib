@@ -1,16 +1,16 @@
 # Software Project: PocketCrib App<br/>
 
-# Team name: RUTeam <br/>
+## Team name: RUTeam <br/>
 
-# Github link: <link>https://github.com/n01291955/PocketCrib</link>
+## Github link: <link>https://github.com/n01291955/PocketCrib</link>
 
-## Team members: <br/>
+### Team members: <br/>
 Alen Alimkhanov (N01291955) <br/>
 Heorhii Nechyporenko (N01329655) <br/>
 Mykyta Nechyporenko (N01329656) <br/>
 Nikita Smirnov (N01287334) <br/>
 
-## Project Description
+### Project Description
 This is Android App that will help students to request lab parts anytime and anywhere. This app will save time for both students and staff members.<br/>
 All they need to do are: <br/>
 • Log in to the app by student number and password <br/>
