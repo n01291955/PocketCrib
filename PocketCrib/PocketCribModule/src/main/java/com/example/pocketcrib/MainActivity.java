@@ -18,7 +18,10 @@ import com.google.android.material.tabs.TabLayout;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     TabLayout tabLayout;
-
+     boolean itemfrag;
+     boolean requesteditemfrag;
+    boolean selecteditemfrag;
+    Fragment frag=null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,21 +40,23 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                Fragment fragment = null;
                 switch (tab.getPosition()) {
                     case 0:
-                        fragment = new ItemFragment();
+                        frag = new ItemFragment();
+
                         break;
                     case 1:
-                        fragment = new SelectedFragment();
+                        frag = new SelectedFragment();
+
                         break;
                     case 2:
-                        fragment = new RequestedItemsFragment();
+
+                        frag = new RequestedItemsFragment();
 
                 }
                 FragmentManager fm = getSupportFragmentManager();
                 FragmentTransaction ft = fm.beginTransaction();
-                ft.replace(R.id.cont, fragment);
+                ft.replace(R.id.cont, frag);
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
                 ft.commit();
             }
@@ -86,4 +91,11 @@ public class MainActivity extends AppCompatActivity {
                 .setNegativeButton("No", null)
                 .show();
     }
+
+
+
+    boolean isFragmentVisible(){
+            return frag.isVisible();
+    }
+
 }
