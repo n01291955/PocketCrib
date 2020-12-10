@@ -89,4 +89,16 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
+
+    boolean InputTest(String n, String pass){
+        if(n.equals(" ") || !n.contains("n") || n.length()<9)  // checking for  proper student id
+            return false;
+
+        if(pass.equals("")) // checking if password field entered
+            return false;
+
+        return true;
+
+    }
+
 }
