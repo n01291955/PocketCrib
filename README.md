@@ -1,7 +1,8 @@
-# Software Project
-# PocketCrib App<br/>
+# Software Project: PocketCrib App<br/>
 
 # Team name: RUTeam <br/>
+
+# Github link: <link>https://github.com/n01291955/PocketCrib</link>
 
 ## Team members: <br/>
 Alen Alimkhanov (N01291955) <br/>
