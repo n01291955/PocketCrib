@@ -36,23 +36,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-//        new Handler().postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                //Do any action here. Now we are moving to next page
-//                Intent mySuperIntent = new Intent(MainActivity.this, Splash.class);
-//                startActivity(mySuperIntent);
-//
-//                //This 'finish()' is for exiting the app when back button pressed from Home page which is ActivityHome
-//                finish();
-//
-//            }
-//        }, 10000);
-
-
-
         FrameLayout frameLayout = (FrameLayout) findViewById(R.id.cont);
         tabLayout = findViewById(R.id.tab_layout);
 
@@ -80,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 FragmentManager fm = getSupportFragmentManager();
                 FragmentTransaction ft = fm.beginTransaction();
-                ft.replace(R.id.cont, fragment);
+                ft.replace(R.id.cont, frag);
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
                 ft.commit();
             }
