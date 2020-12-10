@@ -1,0 +1,2 @@
+include ':PocketCribModule'
+rootProject.name = "PocketCrib"

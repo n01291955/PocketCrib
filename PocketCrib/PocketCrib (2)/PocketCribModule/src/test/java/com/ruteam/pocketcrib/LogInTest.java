@@ -1,11 +1,10 @@
-package com.example.pocketcrib;
+package com.ruteam.pocketcrib;
 
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
 public class LogInTest {
-
 
         @Test
         public void InputTest() {
